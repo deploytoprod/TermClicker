@@ -4,25 +4,25 @@ No more copy/pasting commands when you are delivering demos to your audience, th
 
 ## Requirements
 
-*TermClicker* requires you to use [iTerm], or any other Terminal application that supports running co-processes whenever you press a key on your keyboard.
+*TermClicker* requires you to use [iTerm] or any other Terminal application that supports running co-processes whenever you press a key on your keyboard.
 
 ## Configuration
 
-Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. Usually we choose the *Page Down* key because this is the key that clickers passes to the OS when you press the buttons.
+Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. Usually we choose the *Page Down* key because this is the key that clickers passes to the OS when you press the forward button.
 
 ![TermClicker Configuration on iTerm](https://s3.amazonaws.com/freitasrtempfiles/TermClickeriTermConfig.png)
 
 `/Users/freitasr/itermprint.py <commandsfile>`
 
-### The commandsfile
+### The commands file
 
-Where `<commandsfile>` is the command list you want to input. You can create a text file and put the commands in it separated by line break. The first line of this file has to contain the index.
+The desired commands should be specified in a text file and you should break them in lines. The first line of this file has to contain the index, which is an integer that corresponds to the first command execution, every time you invoke the app, it gets the command specified on that line, print it and increment that integer for next execution. It's that simple. We usually start with the index `1` when we want to start a presentation.
 
-The index is an integer, that integer has to correspond to the line number you want to have the first command executed.
+`itermreprint.py` does almost the same thing, but uses the command specified on the line above what's defined on the index and doesn't increment when it finishes printing. Ideal to use when you want to replay the last command.
 
 ## Caveats and observations
 
-Since the commands will be executed on a non-interactive way, make sure that no 
+Since the commands will be executed on a non-interactive way, make sure that everything you want to input on your CLI demo is predicted on your commands list. i.e. when you SSH an instance for the first time, you have to accept the RSA key typing `yes`, remember to put that `yes` on your commands list.
 
 
 
