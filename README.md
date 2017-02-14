@@ -1,6 +1,6 @@
 # TermClicker
 
-No more copy/pasting commands when you are delivering demos to your audience, this can lead you to human mistakes, typos, confusion and undesirable stuff you don't want in your demo session. TermClicke loads commands from a text file and input them on your terminal, line by line, every time you press your clicker button. It's not a Term simulator.
+No more copy/pasting commands when you are delivering demos to your audience, this can lead you to human mistakes, typos, confusion and undesirable stuff you don't want in your demo session. *TermClicker* loads commands from a text file and input them on your terminal, line by line, every time you press your clicker button. It's not a Terminal simulator.
 
 ## Requirements
 
@@ -8,11 +8,11 @@ No more copy/pasting commands when you are delivering demos to your audience, th
 
 ## Configuration
 
-Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. Usually we choose the *Page Down* key because this is the key that clickers passes to the OS when you press the forward button.
-
-![TermClicker Configuration on iTerm](https://s3.amazonaws.com/freitasrtempfiles/TermClickeriTermConfig.png)
+Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. We usually assign the *Page Down* key because this is the key that clickers passes to the OS when you press the forward button.
 
 `/Users/freitasr/itermprint.py <commandsfile>`
+
+![TermClicker Configuration on iTerm](https://s3.amazonaws.com/freitasrtempfiles/TermClickeriTermConfig.png)
 
 ### The commands file
 
