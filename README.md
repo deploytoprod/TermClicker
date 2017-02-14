@@ -2,11 +2,11 @@
 
 No more copy/pasting commands when you are delivering demos to your audience, this can lead you to human mistakes, typos, confusion and undesirable stuff you don't want in your demo session. TermClicke loads commands from a text file and input them on your terminal, line by line, every time you press your clicker button. It's not a Term simulator.
 
-# Requirements
+## Requirements
 
 *TermClicker* requires you to use [iTerm], or any other Terminal application that supports running co-processes whenever you press a key on your keyboard.
 
-# Configuration
+## Configuration
 
 Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like this, specifying the `itermprint.py` location followed by your commands file.
 
@@ -14,13 +14,13 @@ Clone the repository into a folder, open your [iTerm] App, go to Preferences > K
 
 `/Users/freitasr/itermprint.py <commandsfile>`
 
-## The commandsfile
+### The commandsfile
 
 Where `<commandsfile>` is the command list you want to input. You can create a text file and put the commands in it separated by line break. The first line of this file has to contain the index.
 
 The index is an integer, that integer has to correspond to the line number you want to have the first command executed.
 
-# Caveats and observations
+## Caveats and observations
 
 Since the commands will be executed on a non-interactive way, make sure that no 
 
