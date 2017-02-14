@@ -8,7 +8,7 @@ No more copy/pasting commands when you are delivering demos to your audience, th
 
 ## Configuration
 
-Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like this, specifying the `itermprint.py` location followed by your commands file.
+Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. Usually we choose the *Page Down* key because this is the key that clickers passes to the OS when you press the buttons.
 
 ![TermClicker Configuration on iTerm](https://s3.amazonaws.com/freitasrtempfiles/TermClickeriTermConfig.png)
 
