@@ -3,6 +3,7 @@
 # itermreprint.py
 # About: This application simulates users inputs on iTerm2 according to a line from an input file, addressed by the first file's line, and does not increments it for further uses.
 # Author: Rafael Lopes <dev@rafalop.es>
+# Author: Rafael Lopes <raf@amazon.com>
 # Version: 1.0
 
 from sys import stdout, argv
