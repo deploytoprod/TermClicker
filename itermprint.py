@@ -23,6 +23,9 @@ nexthead = head + 1
 
 line = lines[head]
 line = str(line)
+# if you see ^^^ remove everything after, including new line
+if "^^^" in line:
+    line = line[:line.find("^^^")]
 
 for char in line:
     if char == '\n':
