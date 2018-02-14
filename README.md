@@ -20,6 +20,8 @@ The desired commands should be specified in a text file and you should break the
 
 `itermreprint.py` does almost the same thing, but uses the command specified on the line above what's defined on the index and doesn't increment when it finishes printing. Ideal to use when you want to replay the last command.
 
+`^^^^` at the end of a command line tells TermClicker to ignore the rest of the line - including the new line. This is useful when you don't want TermClick to "press enter" for you at the end of a command.  Also handy for commenting your commandfile!
+
 ## Caveats and observations
 
 Since the commands will be executed on a non-interactive way, make sure that everything you want to input on your CLI demo is predicted on your commands list. i.e. when you SSH an instance for the first time, you have to accept the RSA key typing `yes`, remember to put that `yes` on your commands list.
