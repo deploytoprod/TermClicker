@@ -23,6 +23,9 @@ head = int(lines[0])
 
 line = lines[head-1]
 line = str(line)
+# if you see ^^^ remove everything after, including new line
+if "^^^" in line:
+    line = line[:line.find("^^^")]
 
 for char in line:
     stdout.write(char)
