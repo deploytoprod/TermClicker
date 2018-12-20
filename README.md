@@ -1,3 +1,5 @@
+![](images/TermClicker.gif)
+
 # TermClicker
 
 No more copy/pasting commands when you are delivering demos to your audience, this can lead to human mistakes, typos, confusion and undesirable stuff you don't want in your demo session. *TermClicker* loads commands from a text file and inputs them into your terminal, line by line, every time you press your clicker button. It is not a Terminal simulator.
