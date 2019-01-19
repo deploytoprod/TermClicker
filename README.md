@@ -30,3 +30,13 @@ Since the commands will be executed in a non-interactive way, make sure that eve
 
 
 [iTerm]: https://www.iterm2.com/
+
+---
+
+## New feature!  
+
+Easy install with:
+
+    sudo pip install git+https://github.com/bobeirasa/TermClicker.git
+
+This will create console scripts `tcprint` and `tcreprint`, use these in place of the python scripts in the iTerm Keymapping.

@@ -10,35 +10,39 @@ from sys import stdout, argv
 from time import sleep
 from random import uniform
 
-path=str(argv[1])
-#print path
+def main():
+    path=str(argv[1])
+    #print path
 
-f = open(path,'r')
-lines = f.readlines()
-f.close()
+    f = open(path,'r')
+    lines = f.readlines()
+    f.close()
 
-head = int(lines[0])
-#print head
-nexthead = head + 1
+    head = int(lines[0])
+    #print head
+    nexthead = head + 1
 
-line = lines[head]
-line = str(line)
-# if you see ^^^ remove everything after, including new line
-if "^^^" in line:
-    line = line[:line.find("^^^")]
+    line = lines[head]
+    line = str(line)
+    # if you see ^^^ remove everything after, including new line
+    if "^^^" in line:
+        line = line[:line.find("^^^")]
 
-for char in line:
-    if char == '\n':
-      sleep(uniform(0.05,1.08))
-    stdout.write(char)
-    stdout.flush()
-    sleep(uniform(0.01, 0.08))
+    for char in line:
+        if char == '\n':
+          sleep(uniform(0.05,1.08))
+        stdout.write(char)
+        stdout.flush()
+        sleep(uniform(0.01, 0.08))
 
 
-#sys.stdout.write(lines[head])
+    #sys.stdout.write(lines[head])
 
-lines[0] = lines[0].replace(str(lines[0]), str(nexthead) + "\n")
+    lines[0] = lines[0].replace(str(lines[0]), str(nexthead) + "\n")
 
-with open(path, 'w') as fout:
-  for line in lines:
-    fout.write(line)
+    with open(path, 'w') as fout:
+      for line in lines:
+        fout.write(line)
+
+if __name__ == "__main__":
+    main()
