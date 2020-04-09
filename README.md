@@ -14,7 +14,7 @@ Clone the repository into a folder, open your [iTerm] App, go to Preferences > K
 
 `/Users/freitasr/itermprint.py <commandsfile>`
 
-![TermClicker Configuration on iTerm](https://s3.amazonaws.com/freitasrtempfiles/TermClickeriTermConfig.png)
+![TermClicker Configuration on iTerm](images/termclicker-iterm-config.png)
 
 ### The commands file
 
