@@ -10,6 +10,10 @@ No more copy/pasting commands when you are delivering demos to your audience, th
 
 ## Configuration
 
+### How-To Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PDM8LZ5mSsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. We usually assign the *Page Down* key because this is the key that clickers passes to the OS when you press the forward button.
 
 `/Users/freitasr/itermprint.py <commandsfile>`
