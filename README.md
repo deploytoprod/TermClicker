@@ -10,8 +10,6 @@ No more copy/pasting commands when you are delivering demos to your audience, th
 
 ## Configuration
 
-### How-To Video
-
 I found easier to create a video showing how to configure, here it is:
 
 [![Watch the video](images/youtube-player.png)](https://www.youtube.com/watch?v=PDM8LZ5mSsM&feature=youtu.be)
