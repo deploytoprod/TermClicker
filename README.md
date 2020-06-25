@@ -16,6 +16,8 @@ I found easier to create a video showing how to configure, here it is:
 
 [![Watch the video](images/youtube-player.png)](https://www.youtube.com/watch?v=PDM8LZ5mSsM&feature=youtu.be)
 
+If are grumpy and do not like videos, find text instructions below.
+
 Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. We usually assign the *Page Down* key because this is the key that clickers passes to the OS when you press the forward button.
 
 `/Users/freitasr/itermprint.py <commandsfile>`
