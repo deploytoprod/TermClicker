@@ -12,7 +12,9 @@ No more copy/pasting commands when you are delivering demos to your audience, th
 
 ### How-To Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PDM8LZ5mSsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+I found easier to create a video showing how to configure, here it is:
+
+[![Watch the video](images/youtube-player.png)](https://www.youtube.com/watch?v=PDM8LZ5mSsM&feature=youtu.be)
 
 Clone the repository into a folder, open your [iTerm] App, go to Preferences > Keys, add a new Keymapping like the image below, specifying the `itermprint.py` location followed by your commands file. We usually assign the *Page Down* key because this is the key that clickers passes to the OS when you press the forward button.
 
